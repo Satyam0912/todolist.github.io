@@ -68,7 +68,7 @@ div.added-text {
 }
 
 .added-text-ul li {
-    height: 40px;
+    max-height: 120px;
     width: 400px;
     margin: 10px 0px;
     box-sizing: border-box;
@@ -79,6 +79,11 @@ div.added-text {
     justify-content: space-between;
     align-items: center;
     padding-left: 10px;
+}
+
+.added-text-ul li p{
+    width: 280px;
+    word-wrap: break-word;
 }
 
 .added-text-ul li button {
@@ -147,7 +152,7 @@ div.added-text {
 
 
     .added-text-ul li {
-        height: 40px;
+        max-height: 120px;
         width: 350px;
         margin: 10px 0px;
         box-sizing: border-box;
@@ -160,6 +165,11 @@ div.added-text {
         padding-left: 10px;
     }
 
+    .added-text-ul li p{
+        width: 280px;
+        word-wrap: break-word;
+    }
+    
     .added-text-ul li button {
         height: 40px;
         width: 50px;
