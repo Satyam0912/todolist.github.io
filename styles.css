@@ -9,7 +9,7 @@ body {
     background-color: blanchedalmond;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
 }
 
@@ -96,12 +96,12 @@ div.added-text {
         background-color: blanchedalmond;
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: left;
         align-items: center;
     }
 
     div.main-container {
-        height: 600px;
+        height: 400px;
         width: 350px;
         background-color: blue;
     }
@@ -127,7 +127,7 @@ div.added-text {
     }
 
     div.added-text {
-        height: 600px;
+        height: 400px;
         width: 350px;
         background-color: yellowgreen;
         overflow-y: auto;
