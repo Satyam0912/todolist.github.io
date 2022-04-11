@@ -50,17 +50,17 @@
                 arr.push(inpt);
                 localStorage.setItem('arr', JSON.stringify(arr));
                 let li = document.createElement("li");
-                li.id = arr.length;
+                li.id = arr.length-1;
                 let p = document.createElement("p");
                 let btn = document.createElement("button");
                 btn.className = "innerbtn";
-                btn.id = "todo" + arr.length;
+                btn.id = "todo" + (arr.length-1);
                 p.innerText = inpt;
                 btn.innerText = "X";
                 li.appendChild(p);
                 li.appendChild(btn);
                 list.appendChild(li);
-                let idkey = "todo" + arr.length;
+                let idkey = "todo" + (arr.length-1);
                 document.getElementById(idkey).addEventListener("click", removeData);
             }
         }
